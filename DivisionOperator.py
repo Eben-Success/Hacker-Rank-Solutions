@@ -32,9 +32,10 @@ Sample Output 0
 1
 1.33333333333"""
 
-print(a//b)
-print(a/b)
+if __name__ == '__main__':
+    print(a//b)
+    print(a/b)
 
-OR 
+    #OR 
 
-print('{0} \n {1}'. format((a//b), (a/b)))
+    print('{0} \n {1}'. format((a//b), (a/b)))

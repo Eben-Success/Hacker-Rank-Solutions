@@ -30,3 +30,11 @@ Sample Output 0
 9
 16"""
 
+if __name__ == '__main__':
+    n = int(input())
+    for i in range(n):
+        print(i**2)
+
+        #OR 
+
+        print(*[num**2 for num in range(n)])
